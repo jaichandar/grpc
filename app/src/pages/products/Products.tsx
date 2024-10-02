@@ -13,6 +13,8 @@ const Products = () => {
     const showTable = useProductStore((state) => state.showTable);
     const setShowTable = useProductStore((state) => state.setShowTable);
 
+    console.log('dev-2');
+
     const getAllProducts = () => {
         setLoading(true);
         return fetch('http://localhost:4000/api/v1/product/getall', { method: 'GET' }).then((res) => res.json())

@@ -14,6 +14,7 @@ const Products = () => {
     const setShowTable = useProductStore((state) => state.setShowTable);
 
     console.log('dev-2');
+    console.log('dev-1');
 
     const getAllProducts = () => {
         setLoading(true);

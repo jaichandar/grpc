@@ -13,6 +13,7 @@ const Products = () => {
     const showTable = useProductStore((state) => state.showTable);
     const setShowTable = useProductStore((state) => state.setShowTable);
 
+    console.log('dev-2');
     console.log('dev-1');
 
     const getAllProducts = () => {

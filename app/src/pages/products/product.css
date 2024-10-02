@@ -1,0 +1,58 @@
+.tabs {
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.tab-wrapper {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    display: flex;
+}
+
+.tab-container {
+    display: flex;
+    border: 1px solid #142132;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.close-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.selected {
+    background: #dedede;
+    color: #000;
+}
+
+.image-wrapper {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+
+.image-wrapper img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.input-wrapper {
+    width: 60%;
+}
+
+.input-wrapper > label {
+    display: block;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 5px 0px;
+    width: 100%;
+}

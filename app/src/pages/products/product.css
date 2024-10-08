@@ -1,22 +1,29 @@
 .tabs {
     padding: 5px;
     margin-bottom: 0px;
+    width: 70px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .tab-wrapper {
     width: 100%;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #dcdcdc;
     padding: 10px;
     display: flex;
+    background: #fff;
+    overflow-x: auto;
 }
 
 .tab-container {
     display: flex;
-    border: 1px solid #142132;
+    border: 1px solid #dcdcdc;
     align-items: center;
     margin: 0px 5px;
     padding: 5px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .close-icon {
@@ -44,7 +51,7 @@
 }
 
 .input-wrapper {
-    width: 60%;
+    width: 100%;
 }
 
 .input-wrapper > label {
@@ -55,4 +62,11 @@
     padding: 5px 10px;
     margin: 5px 0px;
     width: 100%;
+}
+
+.text-area {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    resize: none;
 }
